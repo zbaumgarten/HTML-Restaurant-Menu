@@ -27,9 +27,15 @@ main {
     margin: 0 20%;
 }
 
+ul {
+    list-style-type: none;
+
+}
+
 nav {
-    background-color: beige;
+    background-color: rgb(150, 150, 16);
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -83,4 +89,13 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.service {
+    display: inline-block;
+    text-align: center;
+}
+
+.highlight {
+    color: red;
 }
